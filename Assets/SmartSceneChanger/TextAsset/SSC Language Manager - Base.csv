@@ -1,0 +1,34 @@
+"Description
+
+*[Column A]
+ You can add keys to the column.
+ Also, you can get the target string by using [LanguageManager.Instance.getFormattedString(key, params)].
+
+*[Column B]
+ The column is used for explaing parameters that you can use with [string.Format],
+ so the column will be ignored.
+
+*[Column C]
+ The column is used for example,
+
+*[Row 1]
+ You can add languages you want to add from UnityEngine.SystemLanguage.
+
+*[(Others)]
+ Be careful in showing any error messages or URL 
+ because sometimes it makes users hack your app and server easily.",(string.Format Parameters),(Example),English,Japanese
+Yes,,Yes,Yes,はい
+No,,No,No,いいえ
+OK,,OK,OK,OK
+Confirmation_Back_To_Title,,Back to the title scene.,Back to the title scene.,タイトルへ戻ります。
+Dialog_Title_Confirmation,,Confirmation,Confirmation,確認
+Dialog_Title_Error,,Error,Error,エラー
+Dialog_Sub_Retry,,Retry?,Retry?,リトライしますか？
+Error_AssetBundle_Startup,"{0} = Raw Error Message
+{1} = URL","Error Message : {0}
+URL : {1}",AssetBundle Error.,AssetBundle エラー。
+Error_Connection_Timeout,,Connection Timeout.,Connection Timeout.,タイムアウトしました。
+Error_IEnumerator_Startup,{0} = Raw Error Message,{0},{0},{0}
+Error_Www_Startup,"{0} = Raw Error Message
+{1} = URL","Error Message : {0}
+URL : {1}",Download Error.,ダウンロードに失敗しました。

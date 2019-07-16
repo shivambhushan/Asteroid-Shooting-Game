@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d441845746d543919b57cc08c4da251, type: 3}
+  m_Name: Red
+  m_EditorClassIdentifier: 
+  colors:
+  - m_ColorName: Pomegranate
+    m_color:
+      serializedVersion: 2
+      rgba: 4280165865
+  - m_ColorName: Flamingo
+    m_color:
+      serializedVersion: 2
+      rgba: 4282009831
+  - m_ColorName: Monza
+    m_color:
+      serializedVersion: 2
+      rgba: 4279173326
+  - m_ColorName: Cinnabar
+    m_color:
+      serializedVersion: 2
+      rgba: 4282338527
+  - m_ColorName: Chestnut Rose
+    m_color:
+      serializedVersion: 2
+      rgba: 4284042443

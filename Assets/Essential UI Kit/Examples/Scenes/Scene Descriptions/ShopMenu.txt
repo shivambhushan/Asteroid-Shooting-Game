@@ -1,0 +1,8 @@
+The Shopmenu highlights 3 different elements from the Essential UI Kit:
+
+The List Element, which is a simple Selectable that can show additional Information when selected (such as an image and a purchase button in the Example).
+A parented List Controller (Element 2) will also have a reference to the selected Element and as such the combination List Element / List Controller is well suited for selection screens (such as Item Selection/Purchase, Mission Selection, Language Selection etc.)
+
+Element Nr. 3 is the Scroll Rect Controller. Like the name implies it allows you to control a Scroll Rect via code instead of User Input. Using the easing that comes with this kit it can smoothly transition to a Point or an Element inside the Scroll Rect that should be brought into focus, such as a selected Element that is off screen like in this scene or a location on a map.
+
+The Robot Boy Sprite Animations that were in the demo can be found in the Standard Assets/2d package 

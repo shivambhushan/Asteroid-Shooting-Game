@@ -1,0 +1,2 @@
+This Scene highlights the Canvas Element3D which should make it easier to incorporate
+Mesh Elements into your User Interface (Such as Spinning Coins, Vehicle or Weapon Selection Menus etc…). It calculates a Scale that makes the mesh fit inside the RectTransform (either matching the height, width, or always inside the Rect Transform). 

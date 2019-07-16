@@ -1,0 +1,6 @@
+The Tooltip Scene shows how to create a Map with the Scroll Rect Controller.
+
+with a ScrollRect the player can already scroll around the map itself but sometimes you want to draw attention to a certain location on the map, reveal something and make sure the player sees it etc..
+With the ScrollRectController you can smoothly (easing) jump to a point on the map. It also can calculate the appropriate position to have a Rect Transform centered inside the RectTransform.
+
+The mission list shows ExpandableListElements that show additional information when selected (and expand of course), in this case the mission parameters.

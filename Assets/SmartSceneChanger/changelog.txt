@@ -1,0 +1,176 @@
+4ba3e79 (HEAD -> master, tag: v4.0.1) update : readme.txt
+a9e8000 (origin/master) update : README.md
+3ab8fba add : pdf document
+605c0c3 updaye : add simple show UI function
+65f6d7c modify : starter text asset
+1905085 update : add explanation and update UiManager values in inspector
+96ee08a update : remove empty ui identifier list
+530defc fix : add ChangeSystemTextByLanguageScript to dialogs button text
+a340ecb (tag: v4.0.0) modify : progress dialog position
+106db79 fix : how to update error message in IEnumeratorStartupManager.cs
+b5d862e (origin/refactor-startup) modify : disable GameObjects in sample scenes
+f05a465 modify : add cleanup codes
+0b4caad fix : how to unload manifest
+07e0822 modify : add implementation error to AssetBundleStartupManager.cs
+0ee0c58 modify : message for crypto in AssetBundleStartupManager.cs
+6671c79 fix : return null value if an exception happened in crypto function.
+c0c21b2 fix : refresh editor after building AssetBundles
+2ecdb93 modify : exception message in BuildAssetBundlesWindow.cs
+9e682c2 refactor : refactor startup codes
+e9aba2d clean : summary in UiControllerScript.cs
+35b6577 clean : add pragma warning in SingletonMonoBehaviour.cs
+39fab87 clean :  summary in Funcs.cs
+b77465b modify : string comparison in CreateStarterWindow.cs
+92dfd15 clean : add comments
+039f1a7 modify : string comparison in ShowAllAssetBundleNamesWindow.cs
+7f933e6 modify : string comparison in SetAssetBundleNameWindow.cs
+c51160d modify : string comparison in BuildAssetBundlesWindow.cs
+31f0f7c clean : summary in UiManager.cs
+2abb496 clean : summary in SimpleReduxManager.cs
+5e77f27 fix : simple mistake in WwwStartupManager.cs
+8554f87 fix : simple mistake in IEnumeratorStartupManager.cs
+bd7c81d fix : simple comparison mistake in AssetBundleStartupManager.cs
+82413e3 remove : Linq in AssetBunsleStartupManager.cs
+e2f4c72 add : switch on and off button
+52216ce update : sample prefabs and scenes
+4b30ae4 modify : scene ui manager
+630f954 add : script to send Text value by clicking a Button
+6cf5a71 update : dialog design
+248a9c1 add : popup ui and it's samples
+9b17a0b update : add a function to get derived singleton instance
+485e141 update : make functions virtual in SceneChangeManager.cs
+d28c187 update : prefabs
+1988a94 comment : add comment to AssetBundleStartupManager.cs
+c721c54 add : a script and prefab to set scene ui's info at current scene starts
+faf2b55 modify : make the funtion to load scene virtual
+1c9ccb5 update : sample dialog script
+5868120 add : features to change sprites and font by selected language.
+dbbc09c clean : add protected accessor to LanguageManager
+307c3a6 add : functions to create and resume encrypted text
+fcba5cb clean : old encryption functions in Funcs
+81f099f add : sample for LanguageManager
+bc4efb1 update : error dialog message by using LanguageManager
+286e65b update : LanguageManager
+b23f08a update : remove a redundant parameter in LanguageManager
+8687a11 update : SimpleReduxManager and StateWatcher
+1d3dbd8 add : language manager
+e4475c3 update : sample for loading AssetBundle in runtime
+88945cf update : gitignore
+9a579c6 modify : how to load sample scenes
+b5bad56 remove : remove unused scripts
+e61184e (tag: v3.1.0) fix : new decrypt function
+082533b modify : detailed warning
+f9fbf0d add : function to create hierarchy path
+7552290 update : show warnings if it uses older crypro function
+dcfeddc add : new crypto functions
+13cb3dd add : sample for CoroutineManager
+4ad140d update : CoroutineManager
+1c62841 fix : remove codes that I forgot
+a27ecd5 update : add ordered Coroutine
+f10530e update : changelog.txt
+53c9d05 (tag: v3.0.1) add : Coroutine manager for non-MonoBehaviour
+cc4b2c7 update : add UnityEvent to SimpleDialogUiControllerScript
+2b8fc90 update : update sample dialog GameObjects
+4d4d99a (tag: v3.0.0) update : readme.txt and changelog.txt
+92c39d3 update : README.md
+3d0d47f fix : clear UI list in Awake
+27a4329 update : update prefab
+c1d726a add : print errors sample
+58594f6 update : print AssetBundle url
+84a9960 (origin/New_UI) update : deactivate GameObjects
+45d5fb0 update : remove new operator in SceneChangeManager
+961a2bb remove : remove old unused scripts
+3b1d3c1 update : remove new operator in UiManager
+67e69d3 update : fbx settings
+e9b740b update : progress dialog sample
+762ee85 update : add progress dialog example
+586d672 update : SceneChangeState
+f326432 fix : readonly attribute
+bf42d46 remove : remove unused script
+b5c1af1 clean : clean code
+5866cc5 update : update texts in scenes
+f1507f5 add and update : New UI system
+f4b0a86 update : update for 2017.2
+e7c035e fix : check if EventSystem.current is null
+6655883 update changelog
+37a024f (tag: v2.2.0) modify : not update UI history if the same parameters
+5190fa9 modify : warning message for Unity 2017.1
+d2cea22 fix : remove null instance in lock state in SceneChangeManager
+5e09836 modify : parameters in backToTitleScene function
+a60db5d fix : remove WWW.threadPriority if WebGL
+4ee80c9 fix : remove unnecessary script in progress dialog's slider
+3443a31 fix ; setSelectable function in UiManager and DialogManager
+46f92a4 fix : transition flag bug by StopAllCoroutines in UiControllerScript
+05bc4e9 fix : fix inifinite loop in last commit.
+0c26ea1 fix : UIManager.setSelectable
+3971c15 update : changelog
+674a327 (tag: v2.1.0) update : readme
+f3bb5d4 Merge branch 'master' of https://bitbucket.org/ciitt/unity3d-smartscenechanger
+1f4a2d4 update : update Unity version from 5.5.0f3 to 5.5.4p3 because of Unity's security patch
+119454c USELESS COMMIT
+a8d94f6 update : README.md
+238c2fe update : default save path in CreateScriptableObjectAsset
+8192b4a update : set dialog manager rederences to buttons
+bfa8a09 update : reset consecutiveShowing flag in DialogManager
+2bcf5d3 fix : dialog unpause
+4fba8a7 update : TestSReduxScript
+40aa15d add : add test code for SRedux
+d746fa7 add : UiType
+ae3177b clean : clean code
+8241613 fix : UI position when hideAtAwake in SimpleUiControllerScript
+b203681 add : show and hide function for button click
+8c5311d add : add insertAction function to StateWatcher
+cb2edbf add : getter property for title scene name
+fb2811e modify : make backToTitleScene function virtual
+bd7aabb add : create scriptable object context menu
+bd1234a fix : hoe to delete dummy file
+771c904 fix : fix showing UI after now loading is done
+320590c fix modify : show common and scene UI after changing scene is done
+83ca712 add : add isAvailable function to UiManager
+61d0d43 add : add static singleton isAvailable function
+2c85f0e fix : SceneChangeState NowLoadingMain
+5b4ec78 add : add a tool for creating startup managers
+78560bf add : bit mask attribute for enum
+788beff add : add AllStartupsDone state to SceneChangeState
+7e15b7c add : concecutive dialog
+a1ed868 fix : fix dialog callback order
+064436f add: add progress dialog
+f5337d8 add : add UiManager type enum
+0048e85 add : add UI dictionary getter to UiManager
+28db8eb add : add  a string variable to DialogMessages
+d311703 fix : call done callback properly
+aa04035 fix : fix about m_detectedNewStartupObject in AssetBundleStartupManager
+95ca00a fix : how to detect new startup objects
+47a09c7 add : async success funtion for AssetBundle startup
+74cf0f0 modify : add default variable to startHiding function in UiControllerScript
+98db9b9 modify : not to remove "assets/" in SetAssetBundleNameWindow and SetAssetBundleNameContextMenu
+818cb25 fix : doneSuccess flag in IEnumeratorStartupManager
+4d63e8e add : lock state in SceneChangeManager
+e20990a fix : fix and modify IEnumeratorStartupScript and IEnumeratorStartupManager
+6c9294a fix : fix IEnumeratorStartupScript
+cd458f1 add : show all AssetBundle names tool
+8e4261a add : set AssetBundle name by right click menu
+b78e637 remove : I forgot to remove experimental codes
+fcd0eaf fix : resume selectable focus when showing a dialog done
+866da73 add : detailed success function in AssetBundle startup manager
+befe2fa modify : show confirmation dialog when click reset settings button in build assetbunles window
+f2cca67 fix : change result extension in SetAssetBundleNameWindow
+b1073c1 modify : remove unnecessary code
+1b3de1c add : set AssetBundle name tool
+bb5fc79 fix : setSelectable in UiManager
+33dcb5b fix : back function in UiManager
+73a9ec5 add : if new startup object detected, restart startups
+6b363db modify : SimpleReduxManager inheriatable
+d4d16e8 Merge branch 'master' of https://bitbucket.org/ciitt/unity3d-smartscenechanger
+0a3d7fb change changelog.txt change base prefab
+fd3e3bf README.md edited online with Bitbucket
+3aabfdb (tag: v2.0.0) ver2
+fd3e148 Update : changelog.txt
+4d158bb (tag: v1.0.1) Fix : use Hash128 in LoadFromCacheOrDownload
+747cb36 README.md edited online with Bitbucket
+9a8c4ec README.md edited online with Bitbucket
+747c6f6 README.md edited online with Bitbucket
+ae5b0da README.md edited online with Bitbucket
+2393bc0 Add changelog.txt
+0209a58 (tag: v1.0.0) Add readme.txt
+a5aeccf first commit

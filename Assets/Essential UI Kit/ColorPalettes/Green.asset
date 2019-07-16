@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d441845746d543919b57cc08c4da251, type: 3}
+  m_Name: Green
+  m_EditorClassIdentifier: 
+  colors:
+  - m_ColorName: Medium Turquoise
+    m_color:
+      serializedVersion: 2
+      rgba: 4291022177
+  - m_ColorName: Eucalyptus
+    m_color:
+      serializedVersion: 2
+      rgba: 4284196390
+  - m_ColorName: Light Sea Green
+    m_color:
+      serializedVersion: 2
+      rgba: 4288389944
+  - m_ColorName: Gossip
+    m_color:
+      serializedVersion: 2
+      rgba: 4286305679
+  - m_ColorName: Niagara
+    m_color:
+      serializedVersion: 2
+      rgba: 4286882100
+  - m_ColorName: Emerald
+    m_color:
+      serializedVersion: 2
+      rgba: 4286628671
+  - m_ColorName: Shamrock
+    m_color:
+      serializedVersion: 2
+      rgba: 4285582923
+  - m_ColorName: Jade
+    m_color:
+      serializedVersion: 2
+      rgba: 4285116979

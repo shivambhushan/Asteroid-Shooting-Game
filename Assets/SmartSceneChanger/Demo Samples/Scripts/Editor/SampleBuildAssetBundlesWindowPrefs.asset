@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53937178dbd22e6499da1395ae808254, type: 3}
+  m_Name: SampleBuildAssetBundlesWindowPrefs
+  m_EditorClassIdentifier: 
+  encryptionInfo:
+    tempAssetBundlesFolderPath: Assets/AssetBundles
+    tempEncryptedFolderPath: Assets/Encrypted
+    encryptedAssetBundlePrefix: encrypted/
+    useEncryption: 1
+    cryptoVersion: 1
+    password: PassworDPassworD
+  buildPlatforms:
+    buildWindows: 1
+    builAndroid: 1
+    buildIos: 1
+    windowsManifestName: windows.unity3d
+    androidManifestName: android.unity3d
+    iosManifestName: ios.unity3d
+    windowsEncryptedManifestName: windows.encrypted.unity3d
+    androidEncryptedManifestName: android.encrypted.unity3d
+    iosEncryptedManifestName: ios.encrypted.unity3d

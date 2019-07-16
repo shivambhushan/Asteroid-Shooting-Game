@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: f1acc0c070bde414e9477e8701521f5c
+labels:
+- UI
+- Easing
+- Tween
+- animation
+- Pop-Up
+- Notification
+- Modal
+- List
+- Inventory
+- EditorHelper
+folderAsset: yes
+timeCreated: 1438598808
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

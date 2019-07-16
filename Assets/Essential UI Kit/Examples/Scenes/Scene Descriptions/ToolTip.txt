@@ -1,0 +1,7 @@
+The Tooltip Scene shows how to create a Tooltip with the Essential UI Kit: 
+
+There are 2 Components to it: 
+
+1. The ToolTipTarget: The object the tooltip is about. The info (Header, Text, Image) that the tooltip will display is stored here. It also determines the position of the tooltip with a target Rect Transform (whose pivot will determine the orientation relative to that target)
+
+2. The tooltip itself. Style as you like and with the Animator Tooltip you can also animate the tooltip appearance.

@@ -1,0 +1,1 @@
+This Scene highlights the Draggable Page Element and the Page Controller. The Draggable Page can be changed by dragging it outside of the Rect Transform of the Page Controller (usually a parent).  

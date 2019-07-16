@@ -1,0 +1,2 @@
+This Scene highlights the Animations you can create with Essential UI Kit. Most of the Animations have been eased with the Easing Animation Editor and the Spritesheets have been put together with Create Spritesheet from Sequence Editor.
+The Animations can also be reused for a lot things since they’re animating relative Properties such as scale, pivot or the mask Component.

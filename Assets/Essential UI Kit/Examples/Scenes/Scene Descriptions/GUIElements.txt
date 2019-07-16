@@ -1,0 +1,1 @@
+This Scene shows the basic UI Elements in the Essential UI Kit. A lot of them can also be found as Prefabs in the Prefabs folder.

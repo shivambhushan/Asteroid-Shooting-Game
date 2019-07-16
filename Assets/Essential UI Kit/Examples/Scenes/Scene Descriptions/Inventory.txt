@@ -1,0 +1,2 @@
+This Scene shows the Inventory Element. This Scene shows two types of Inventory, (Apple and Oranges, you can of course create your own). An Inventory will only accept Items of its type (The AppleInventory will only accept Apple Items, the OrangeInventory only Orange Items). Items of it’s type in this case means GameObjects that have an Apple Script on them (but you can create an Inventory for any of your Components).
+ 

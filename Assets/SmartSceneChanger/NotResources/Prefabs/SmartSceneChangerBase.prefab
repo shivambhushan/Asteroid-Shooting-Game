@@ -1,0 +1,260 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1122518342589854}
+  m_IsPrefabParent: 1
+--- !u!1 &1035666413803746
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4506559918411958}
+  - component: {fileID: 114466296879466104}
+  - component: {fileID: 114805658063540420}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1122518342589854
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4989568305880434}
+  - component: {fileID: 114312542490576048}
+  - component: {fileID: 114866382373757914}
+  - component: {fileID: 114607087549202992}
+  - component: {fileID: 114612390429961460}
+  - component: {fileID: 114889407537660554}
+  - component: {fileID: 114872839941758748}
+  - component: {fileID: 114884243562853834}
+  - component: {fileID: 114508544796680448}
+  - component: {fileID: 114621813917554824}
+  - component: {fileID: 114394331707784222}
+  m_Layer: 0
+  m_Name: SmartSceneChangerBase
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4506559918411958
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1035666413803746}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4989568305880434}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4989568305880434
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1122518342589854}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4506559918411958}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114312542490576048
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1122518342589854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 699863e85e453b947b7d1bed533251e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114394331707784222
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1122518342589854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a60970288f9ff0940a6e45c9ff2c46a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_currentSystemLanguage: 10
+  m_languageCsvForSystemText: {fileID: 4900000, guid: b23aa6b06860e014ea10a37e944d539f,
+    type: 3}
+  m_languageAndFontList:
+  - systemLanguage: 0
+    font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  m_supportedLanguagesEditorOnly: 0a000000
+--- !u!114 &114466296879466104
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1035666413803746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -619905303, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 5
+--- !u!114 &114508544796680448
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1122518342589854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c58b758d9c5c6554696f97a8598070e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_currentShowingUi: []
+  m_previousShowingUi: []
+  m_updateUiGroupForDebug: 0
+  m_uiGroups: []
+  m_popupUiInfo: {fileID: 0}
+--- !u!114 &114607087549202992
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1122518342589854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8752e97c0f6df9042a9329062c909088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_refInputBlocker: {fileID: 0}
+  m_refOkDialog: {fileID: 0}
+  m_refYesNoDialog: {fileID: 0}
+  m_refProgressDialog: {fileID: 0}
+  m_refOkButtonSelectable: {fileID: 0}
+  m_refYesButtonSelectable: {fileID: 0}
+  m_refNoButtonSelectable: {fileID: 0}
+  m_numberOfErrorStack: 10
+--- !u!114 &114612390429961460
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1122518342589854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4837e422c507169429cf5272e700c270, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114621813917554824
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1122518342589854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e26c8d5222ce4849b08a99716561945, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114805658063540420
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1035666413803746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1077351063, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &114866382373757914
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1122518342589854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aea532a79a6b7647844b3b4ce036532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_numberOfCo: 4
+  m_ignoreError: 0
+  m_threadPriority: 0
+  m_noProgressTimeOutSeconds: 0
+--- !u!114 &114872839941758748
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1122518342589854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f755ec77f727619488ae431aec305cd7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_titleScene: {fileID: 0}
+  m_titleSceneName: 
+  m_currentNowLoadingUiIdentifier: NowLoading
+--- !u!114 &114884243562853834
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1122518342589854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4a85c14fc4e1f14a816adb028a1aa72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_numberOfCo: 4
+  m_ignoreErrorExceptManifest: 0
+  m_checkManifestAfterLoading: 0
+  m_useDecryption: 0
+  m_cryptoVersion: 2
+  m_threadPriority: 0
+  m_noProgressTimeOutSeconds: 0
+--- !u!114 &114889407537660554
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1122518342589854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70abf1e855217294da49fe7849d80bf5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_numberOfCo: 4
+  m_ignoreError: 0
